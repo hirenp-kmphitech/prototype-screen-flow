@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from "recharts";
-import { Users, User, Export } from "lucide-react";
+import { Users, User, Download } from "lucide-react";
 import { DashboardSidebar } from "@/components/DashboardSidebar";
 import { StatsCards } from "@/components/StatsCards";
 import { UserInsightChart } from "@/components/UserInsightChart";
@@ -26,7 +26,7 @@ const Index = () => {
             
             <div className="flex items-center gap-4">
               <Button className="bg-blue-600 hover:bg-blue-700">
-                <Export className="w-4 h-4 mr-2" />
+                <Download className="w-4 h-4 mr-2" />
                 Export
               </Button>
               
